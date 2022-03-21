@@ -1,0 +1,52 @@
+.about {
+    padding: 4rem 1.4375rem 4rem 1.4375rem;
+}
+.about__title {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: #4F4C4C;
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-bottom: 1.5rem;
+    
+}
+.about__text {
+    padding-bottom: 1rem;
+}
+.social {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 2rem;
+    padding-top: 1rem;
+    
+}
+.social__icon {
+    width: 2.1875rem;
+    height: 2.5rem;
+}
+.about__image {
+    display: none;
+}
+
+@media screen and (min-width: 700px) {
+    .about {
+        display: flex;
+        padding: 2.81rem 4rem;
+    }
+
+    .about__image {
+        display: block;
+    }
+    .about__info {
+        padding-left: 0;
+        padding-right: 5rem;
+    }
+    .about__title {
+        text-align: left;
+    }
+    .about__text--border {
+        border-bottom: 1px solid ;
+    }
+     
+}

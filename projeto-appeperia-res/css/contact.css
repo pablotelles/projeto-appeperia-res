@@ -1,0 +1,73 @@
+.contact {
+    display: flex;
+    flex-direction: column;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    text-align: center;
+}
+.contact__title {
+    font-family: 'Montserrat', sans-serif;
+    color: #4F4C4C;
+    font-weight: bold;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 2rem;
+    padding-bottom: 1.5rem;
+}
+
+.institutional_contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.institutional__address {
+    color: #666666;
+    font-size: 1.5rem;
+    justify-content: space-around;
+}
+.institutional_phone {
+    font-size: 1.3rem;
+    cursor: pointer;
+    
+}
+.institutional__email {
+    color: #0084FF;
+    font-size: 1.3rem;
+    cursor: pointer;
+    text-decoration: underline;
+    display: block;
+
+}
+.institutional__video {
+    width: 100%;
+    max-width: 600px;
+ 
+}
+.media__social {
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem 0 0 0;
+}
+.mediaSocial__icon {
+    margin-left: 2rem;
+}
+
+@media screen and (min-width: 700px) {
+    .contact {
+        display: flex;
+        flex-direction: row;
+        text-align: left;
+    }
+    .contact__title {
+        text-align: left;
+    }
+
+}
